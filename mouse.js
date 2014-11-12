@@ -1,5 +1,6 @@
 document.onmousemove = function(event) {
 	event = event || window.event;
+	
 	var x = event.clientX;
 	var y = event.clientY;
 
