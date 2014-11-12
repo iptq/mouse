@@ -4,10 +4,24 @@ html, body {
 }
 
 #mouse {
+	z-index: 40;
+
 	width: 20px;
 	height: 20px;
 	background-image: url(mouse.png);
 	background-size: 100% 100%;
 	/* border: 1px solid #F00; */
 	position: absolute;
+}
+
+#like-container {
+	z-index: 30;
+
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+
+	width: 100%;
+
+	text-align: center;
 }
